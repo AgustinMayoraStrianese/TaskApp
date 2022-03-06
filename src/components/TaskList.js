@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { GlobalContext } from "../context/GlobalContext";
 import { Link } from "react-router-dom";
 
+
 const TaskList = () => {
   const { tasks, deleteTask } = useContext(GlobalContext);
 
@@ -40,3 +41,12 @@ const TaskList = () => {
 };
 
 export default TaskList;
+
+useEffect(() => {
+  first
+
+  return () => {
+    second
+  }
+}, [third])
+
